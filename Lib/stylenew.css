@@ -97,6 +97,7 @@ cursor:none;
     background-color: var(--primary-color);
     padding: 0.5rem 0.5rem;
     border-bottom-right-radius: 1rem;
+    margin: 100px;
 }
 .footer-pills .list-inline-bullet
 {
