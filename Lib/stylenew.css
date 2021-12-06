@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
 :root
 {
     --primary-color:#818CF8;
@@ -129,21 +134,22 @@ a
 {
     border-radius: 1rem;
     background-color: var(--primary-color);
-    display: block;
+    display: inline;
+    text-align: center;
     max-width: 100px;
-    padding: 1rem 1rem 1rem 3rem;
+    padding: 1rem 1.2rem; 
     margin-left: 10px;
     margin-bottom: 10px;
     color:black;
 }
 
-.Secondary .Link-Projects
-{
+.Secondary {
+    text-align: center;
     border-radius: 1rem;
     background-color: none;
-    display: block;
+    display: inline;
     max-width: 100px;
-    padding: 3rem 3rem 3rem 3rem;
+    padding: 1rem;
     margin-left: 10px;
 }
 .format
@@ -151,7 +157,16 @@ a
     list-style-type:none;
 }
 
-.para
+.Para
 {
     color:black;
+    margin-bottom: 5rem;
+}
+.center
+{
+align-items: center;
+}
+.space
+{
+    margin-bottom: 2rem;
 }
