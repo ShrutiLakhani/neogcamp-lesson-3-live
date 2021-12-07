@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{padding:0rem;
+margin: 0rem}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -102,7 +104,8 @@ cursor:none;
     background-color: var(--primary-color);
     padding: 0.5rem 0.5rem;
     border-bottom-right-radius: 1rem;
-    margin: 100px;
+    
+    width: 100%;
 }
 .footer-pills .list-inline-bullet
 {
