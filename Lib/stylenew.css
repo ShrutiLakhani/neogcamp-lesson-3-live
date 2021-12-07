@@ -5,6 +5,8 @@ margin: 0rem}
 body{
     font-family: 'Poppins', sans-serif;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 :root
 {
