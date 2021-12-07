@@ -141,12 +141,15 @@ a
     border-radius: 1rem;
     background-color: var(--primary-color);
     display: inline;
+    justify-content: center;
     text-align: center;
     max-width: 100px;
     padding: 1rem 1.2rem; 
     margin-left: 10px;
     margin-bottom: 10px;
     color:black;
+    align-items: center;
+
 }
 
 .Secondary {
@@ -175,4 +178,8 @@ align-items: center;
 .space
 {
     margin-bottom: 2rem;
+}
+.blog-style
+{
+    margin-bottom: 1rem;
 }
